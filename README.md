@@ -1,17 +1,17 @@
 # Tech Layoffs Analysis (2020–2026)
 
 **Tools:** MySQL, Excel
-**Skills:** SQL, data cleaning, business analysis, data visualization
+**Skills:** SQL, Data Cleaning, Business Analysis, Data Visualization
 
 ---
 
-## What this project is
+## What This Project Is
 
 I looked at 4,494 tech industry layoff events from March 2020 through mid-2026 to answer three questions: which industries got hit hardest, when did layoffs actually peak, and how severe were individual events — not just in headcount, but as a share of each company's workforce.
 
 **Dataset:** [Layoffs 2022 (Kaggle)](https://www.kaggle.com/datasets/swaptr/layoffs-2022) — company, industry, country, funding stage, and headcount data for layoffs across the tech sector.
 
-## How I did it
+## The Process
 
 1. Loaded the raw CSV into MySQL and checked it for duplicates, blanks, and bad values.
 2. Found that 16% of rows had no confirmed headcount — flagged them instead of deleting them, so they still count toward frequency without skewing totals.
@@ -62,7 +62,7 @@ I looked at 4,494 tech industry layoff events from March 2020 through mid-2026 t
 2. Don't take layoff totals at face value — 16% of events in this dataset had no confirmed headcount, meaning real totals are likely higher than reported.
 3. Separate full shutdowns from partial layoffs in any workforce-risk analysis; they signal very different things.
 
-## Files in this project
+## Files In This Project
 
 | File | What it is |
 |---|---|
@@ -71,7 +71,7 @@ I looked at 4,494 tech industry layoff events from March 2020 through mid-2026 t
 | `industry_layoffs_chart.png` | Chart showing total layoffs by industry |
 | `monthly_layoffs_chart.png` | Chart showing the monthly layoff trend, 2020–2026 |
 
-## What I'd look into next
+## What I'd Look Into Next
 
 - Whether layoffs differ by company funding stage (Seed vs. Series C vs. Post-IPO).
 - Whether the 731 unconfirmed-size events cluster in specific industries or time periods.
