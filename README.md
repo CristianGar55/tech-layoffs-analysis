@@ -85,7 +85,7 @@ Fixing both changed the Seed shutdown rate from ~56% to the correct 71.2%, and t
 
 Built in Excel with three slicers (Industry, Funding Tier, Company Stage) and a Year/Quarter/Month timeline, all connected to four live KPI cards and four charts. Filtering by any slicer updates everything at once.
 
-![Filtered to Seed-stage companies](dashboard_filtered_seed.png)
+![Filtered to Seed-stage companies](dashboard_filtered_example.png)
 *Filtered to Seed-stage layoffs — Companies Affected, Avg % Laid Off, and the shutdown chart all update to isolate that stage's pattern.*
 
 ## What I'd tell a business to do
