@@ -105,3 +105,4 @@ Built in Excel with three slicers (Industry, Funding Tier, Company Stage) and a 
 
 - Whether industry and stage are confounded — for example, if Seed-stage companies cluster in already-volatile industries like Crypto or AI, that could be part of what's driving the shutdown rate, not stage alone.
 - The 731 unconfirmed-size events — whether they cluster in specific industries or time periods.
+- Country-level patterns, since this analysis focused on industry, stage, and time.
