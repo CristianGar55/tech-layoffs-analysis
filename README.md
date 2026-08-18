@@ -99,7 +99,7 @@ Built in Excel with three slicers (Industry, Funding Tier, Company Stage) and a 
 | File | What it is |
 |---|---|
 | `layoffs_queries.sql` | All the SQL — schema setup, data cleaning, core analysis, and the deeper funding/stage analysis |
-| `layoffs_dashboard.xlsx` | Cleaned dataset, pivot tables, and the interactive dashboard |
+| `Tech_Layoffs Dashboard_(2020–2026).xlsx` | Cleaned dataset, pivot tables, and the interactive dashboard |
 
 ## What I'd look into next
 
