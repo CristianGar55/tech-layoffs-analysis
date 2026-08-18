@@ -90,4 +90,18 @@ Built in Excel with three slicers (Industry, Funding Tier, Company Stage) and a 
 
 ## What I'd tell a business to do
 
-1. Treat company stage, not just industry, as a real risk signal — Seed-stage layoffs behave
+1. Treat company stage, not just industry, as a real risk signal — Seed-stage layoffs behave completely differently from Post-IPO ones, and lumping them together hides that.
+2. Don't assume a well-funded company is a safer bet for job security. It just changes the shape of the risk, not whether it exists.
+3. Don't take layoff totals at face value — 16% of events in this dataset had no confirmed headcount, meaning real totals are likely higher than reported.
+
+## Files in this repo
+
+| File | What it is |
+|---|---|
+| `layoffs_queries.sql` | All the SQL — schema setup, data cleaning, core analysis, and the deeper funding/stage analysis |
+| `layoffs_dashboard.xlsx` | Cleaned dataset, pivot tables, and the interactive dashboard |
+
+## What I'd look into next
+
+- Whether industry and stage are confounded — for example, if Seed-stage companies cluster in already-volatile industries like Crypto or AI, that could be part of what's driving the shutdown rate, not stage alone.
+- The 731 unconfirmed-size events — whether they cluster in specific industries or time periods.
